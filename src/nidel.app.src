@@ -1,0 +1,12 @@
+{application, nidel,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { nidel_app, []}},
+  {env, []}
+ ]}.
