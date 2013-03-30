@@ -57,7 +57,6 @@ write_pid() {
 
 start()
 {
-    echo $*
     erl -pa $APP_DIR/deps/*/ebin $APP_DIR/ebin \
         -setcookie $COOKIE $VM_ARGS $APP_ENV_CONFIG \
         $*
